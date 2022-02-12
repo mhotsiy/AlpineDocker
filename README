@@ -1,0 +1,4 @@
+1. docker build -t pronlinux:latest .
+2. docker run -it -v "//var/run/docker.sock:/var/run/docker.sock" pronlinux:latest
+3. docker-compose -p reportportal up -d --force-recreate
+4. http://localhost:8080/ui/#login
